@@ -1,0 +1,33 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;800&display=swap');
+
+html {
+    background-color: rgb(12, 12, 51);
+    text-align: justify;
+    font: 400 20px "Saira Extra Condensed";
+    color: #fff;
+}
+
+h1, h2 {
+    margin: -10px;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #ffe4c4;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #706558;
+}
+
+p {
+    line-height: 20px;
+}
+
+#content {
+    padding: 40px;
+}
