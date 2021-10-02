@@ -1,12 +1,19 @@
-O planeta eh Skaro, um lugar cheio de armadilhas, golpistas e assassinos. Whovian e sua assistente Clara estão fugindo dos Daleks, uma perigosa raça que domina o planeta, após furtarem o pequeno núcleo de uma perigosa arma de madrugada.
+<p>O planeta eh Skaro, um lugar cheio de armadilhas, golpistas e assassinos. Whovian e sua
+assistente Clara estão fugindo dos Daleks, uma perigosa raça que domina o planeta, após
+furtarem o pequeno núcleo de uma perigosa arma de madrugada.</p>
 
-Eles são encurralados, e com os Daleks logo atrás, Clara decide se sacrificar para atrasá-los, e entrega uma carta para Whovian, que jura salvá-la, afinal, ele possui uma máquina de viagem no tempo.
+<p>Eles são encurralados, e com os Daleks logo atrás, Clara decide se sacrificar para
+atrasá-los, e entrega uma carta para Whovian, que jura salvá-la, afinal, ele possui
+uma máquina de viagem no tempo.</p>
 
-Ainda em fuga, mas agora com um tempo extra gracas a Clara, Whovian chega num cruzamento com outras três direções. Um estranho homem sugere o beco escuro da esquerda.
+<p>Ainda em fuga, mas agora com um tempo extra gracas a Clara, Whovian chega num cruzamento
+com outras três direções. Um estranho homem sugere o beco escuro da esquerda.</p>
 
-Ainda sobre este homem, ele está com roupa suja, um chapéu marrom cobrindo seu rosto, algemas nas mãos e esta aparentemente triste, de modo que se impossibilita fazer uma leitura decente de sua personalidade.
+<p>Ainda sobre este homem, ele está com roupa suja, um chapéu marrom cobrindo seu rosto,
+algemas nas mãos e esta aparentemente triste, de modo que se impossibilita fazer uma
+leitura decente de sua personalidade.</p>
 
-
+<pre>
                             +                             
                                      *       +             
                                '                  |        
@@ -17,12 +24,24 @@ Ainda sobre este homem, ele está com roupa suja, um chapéu marrom cobrindo seu
                                 .   '=.__.=' `='      *    
                        +                         +         
                             O      *        '       .      
+</pre>
 
+<h3>Qual caminho seguir?</h3>
 
-Qual caminho seguir? (a/b/c)
+<form id='answer'>
 
-a — ouvir o homem e seguir para o caminho escuro da esquerda, pois nao há tempo de pensar.
+<input id='a' type='radio' name='choice' value='/Inicia/cena1.txt'>
+<label for='c'> a — ouvir o homem e seguir para o caminho escuro da
+esquerda, pois nao há tempo de pensar.</label><br>
 
-b — ignorar o sujeito e seguir reto, conforme seus instintos.
+<input id='b' type='radio' name='choice' value='/Inicia/cena2.txt'>
+<label for='b'> b — ignorar o sujeito e seguir reto, conforme seus
+instintos.</label><br>
 
-c — ir pelo caminho da direita desviando completamente da sugestão do estranho.
+<input id='c' type='radio' name='choice' value='/Inicia/cena3.txt'>
+<label for='c'> c — ir pelo caminho da direita desviando completamente
+da sugestão do estranho.</label><br>
+
+<input id='submit' type='submit' value='Confirmar'>
+
+</form>
