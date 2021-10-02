@@ -1,0 +1,26 @@
+INSTRUÇÕES:
+
+O jogo apresenta uma história do Dr. Whovian, um doutor em viagem interdimensional no tempo, e você devera escolher entre as opções de resposta ou acoes.
+
+Cada alternativa resultara em diferentes caminhos da história, portanto, escolha bem.
+
+Escreva as respostas/alternativas sempre em minusculo, sua nave temporal possui programação básica, apenas.
+
+Inserir respostas não programadas pode acarretar um ‘loop’, e como pode imaginar, um ‘loop’ temporal não é bom.
+
+Pense calmamente nas escolhas, prestando atenção na história, imaginando que o personagem dessa história é você.
+
+Ha cenas que serão de escolha única, apenas uma prossegue corretamente na história, as demais, desfechos não oficiais diferentes dos cinco (5) principais.
+
+Tenha um bom jogo :) e tente não quebrar a linha do tempo como o Barry costuma fazer…
+
+                            _
+                           ( \                          
+                            \'\                         
+                             \'\     __________         
+                             / '|   ()_________)        
+                             \ '/    \ ~~~~~ ~~ \       
+                               \       \ ~~~ ~~~~ \     
+                               ==).      \__________\   
+                              (__)       ()__________)  
+

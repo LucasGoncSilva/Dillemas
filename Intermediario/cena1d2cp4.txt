@@ -1,0 +1,26 @@
+Simulacao 341: manobra concluida, preso logo em seguida
+
+Simulacao 770: manobra incompleta
+
+Simulacao 1024: descoberta de falha crítica; correção e reinicio
+
+Simulacao reboot 1014: falha oficialmente resolvida
+
+Simulacao reboot 2666: incongruência na matriz da simulação
+
+Simulacao reboot 4870: fuga idealizada parcialmente completa
+
+Simulacao reboot 8999: 97% da fuga concluida
+
+Simulacao reboot 14605: erro no sistema, dados corrompidos, simulacao reboot deletada, relatórios perdidos
+
+Nesse momento, Whovian é baixado e materializado como programado, porém, ele percebe estar consideravelmente mais cansado do que se lembra estar na fuga. Ele estranha. Antes de prosseguir com as simulações, ele cogita ler a carta de Clara, mas uma ideia distante, jurando ser apenas um pedido ou um poema, como ela costumava escrever nas horas vagas.
+
+
+parte 4/4
+
+Como proceder?  (a/b)
+
+a — Ler a carta de sua amiga.
+
+b — Continuar com as simulações, corrigindo possíveis problemas.
