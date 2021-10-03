@@ -1,14 +1,21 @@
-Enquanto corria, pensando estar fugindo, Whovian se encontra de surpresa com um pelotão desdobrado dos Daleks, que apos a ordem de perseguição enviada pelo roubo da arma, foram por fora em um atalho buscando cercar os fugitivos (O que parece ter funcionado).
+<p>Enquanto corria, pensando estar fugindo, Whovian se encontra de surpresa com um
+pelotão desdobrado dos Daleks, que após a ordem de perseguição enviada pelo roubo
+da arma, foram por fora em um atalho buscando cercar os fugitivos (O que parece ter
+funcionado).</p>
 
-Sem oportunidade de fuga, os Daleks cercam o Doutor e o mandam se entregar, sob pena de execução, como foi com Clara, sua assistente que ficou para facilitar a fuga do Whovian.
+<p>Sem oportunidade de fuga, os Daleks cercam o Doutor e o mandam se entregar, sob pena
+de execução, como foi com Clara, sua assistente que ficou para facilitar a fuga do Whovian.</p>
 
-Apos alguns breves instantes de negociação sem exito, nosso personagem se entrega, mas blefando ter escondido o núcleo da arma durante a fuga, os Daleks o obrigam a indicar o caminho.
+<p>Apos alguns breves instantes de negociação sem exito, nosso personagem se entrega, mas
+blefando ter escondido o núcleo da arma durante a fuga, os Daleks o obrigam a indicar
+o caminho.</p>
 
-Espertamente, o Doutor deseja guiar o pelotão por um caminho que leva para sua maquina do tempo, a V.A.T.A.
+<p>Espertamente, o Doutor deseja guiar o pelotão por um caminho que leva para sua maquina
+do tempo, a V.A.T.A.</p>
 
-Eles estão agora caminhando, porém, longe da máquina do tempo.
+<p>Eles estão agora caminhando, porém, longe da máquina do tempo.</p>
 
-
+<pre>
              ____            ____            ____        
             /....\          /....\          /....\        
     .-.    |::::::|    .-. |::::::|    .-. |::::::|        
@@ -29,13 +36,23 @@ Eles estão agora caminhando, porém, longe da máquina do tempo.
           |__|            |__|            |__|            |        
           /_ |            |_ |            |_ |            |        
           |___`-__________-'__`-__________-'__`-__________-'        
+</pre>
 
 
+<form id='answer'>
+<fieldset>
 
-Como proceder? (a/b/c):
+<legend>Como proceder?</legend>
 
-a — mudar de rota para ganhar tempo de pensar em algo inteligente.
+<input type='radio' id='a' name='choice' value='/Intermediario/cena2d3.txt'>
+<label for='a'>a — mudar de rota para ganhar tempo de pensar em algo inteligente.</label><br>
 
-b — tentar ludibriar os Daleks com uma ameaça.
+<input type='radio' id='b' name='choice' value='/Intermediario/cena2d1a.txt'>
+<label for='b'>b — tentar ludibriar os Daleks com uma ameaça.</label><br>
 
-c — apenas aguardar enquanto eles acompanham.
+<input type='radio' id='c' name='choice' value='/Intermediario/cena2d2.txt'>
+<label for='c'>c — apenas aguardar enquanto eles acompanham.</label><br>
+
+<input id='submit' type='submit' value='Confirmar'>
+</fieldset>
+</form>

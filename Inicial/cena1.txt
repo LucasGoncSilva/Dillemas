@@ -1,28 +1,43 @@
-Whovian decide ouvir a sugestão do estranho e segue para o beco escuro, os Daleks passaram sem vê-lo, mas agora não ha mais retorno.
+<p>Whovian decide ouvir a sugestão do estranho e segue para o beco escuro, os Daleks
+passaram sem vê-lo, mas agora não há mais retorno, o Doutor só possui uma escolha
+no momento: seguir em frente.</p>
 
-Andando lentamente pelo perigoso local inexplorado, nosso personagem é abordado por um grupo:
+<p>Andando lentamente pelo perigoso local inexplorado, nosso personagem é abordado por
+um grupo:</p>
 
-— O que faz por aqui, forasteiro? — pergunta aquele que parece um chefe da área.
+<p>— O que faz por aqui, forasteiro? — pergunta aquele que parece um chefe da área.</p>
 
-*Whovian apresenta um documento que muda de acordo com quem o vê, revelando-o como um agente daquela que seria a pior visita de quem lê o documento.*
+<p>*Whovian apresenta um documento que muda de acordo com quem o vê, revelando-o como um
+agente daquela que seria a pior visita de quem lê o documento.*</p>
 
-*O chefe aponta uma arma primitiva para a cabeça de Whovian, os outros fazem o mesmo.*
+<p>*O chefe aponta uma arma primitiva para a cabeça de Whovian, os outros fazem o mesmo.*</p>
 
-— Delegado da UnAPol(Policia Universal Absoluta)? Realmente muita coragem de aparecer por aqui...
+<p>— Delegado da UnAPol(Policia Universal Absoluta)? Realmente muita coragem de aparecer
+por aqui...</p>
 
+<pre>
+             o___________________________O____                          
+            |__________,----------._ [____]  ""-,__  __...-----==="     
+                    (_(||||||||||||)___________/   ""             |     
+                       `----------'        [ )]"-,                |     
+                                                  `,  _,--...___  |     
+                                                    `/          "==     
+</pre>
 
-                 o___________________________O____                          
-                |__________,----------._ [____]  ""-,__  __...-----==="     
-                        (_(||||||||||||)___________/   ""             |     
-                           `----------'        [ )]"-,                |     
-                                                      `,  _,--...___  |     
-                                                        `/          "==     
+<form id='answer'>
+<fieldset>
 
+<legend>O que fazer?</legend>
 
-O que fazer? (a/b/c):
+<input type='radio' id='a' name='choice' value='/Intermediario/cena1d1.txt'>
+<label for='a'>a — usar de ameaça.</label><br>
 
-a — usar de ameaça.
+<input type='radio' id='b' name='choice' value='/Intermediario/cena1d2a.txt'>
+<label for='b'>b — usar de blefe.</label><br>
 
-b — usar de blefe.
+<input type='radio' id='c' name='choice' value='/Intermediario/cena1d3.txt'>
+<label for='c'>c — usar de benevolência.</label><br>
 
-c — usar de benevolência.
+<input id='submit' type='submit' value='Confirmar'>
+</fieldset>
+</form>
