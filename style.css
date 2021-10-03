@@ -28,6 +28,35 @@ p {
     line-height: 20px;
 }
 
+input[type=radio] {
+    accent-color: #f0f;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+#page {
+    overflow-x: hidden;
+}
+
 #content {
-    padding: 40px;
+    margin: 40px;
+}
+
+#submit {
+    height: 50px;
+    width: 100px;
+    color: #f0f;
+    border: 3px solid #f0f;
+    border-radius: 2em;
+    margin-top: 30px;
+    background-color: #0c0c33;
+    cursor: pointer;
+    transition: ease-in-out 800ms;
+}
+
+#submit:hover {
+    width: 150px;
 }

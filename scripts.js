@@ -11,19 +11,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
     document.querySelector('#answer').onsubmit = () => {
 
-        if (document.querySelector('#submit')) {
+        document.querySelectorAll('input[name="choice"]').forEach((elem) => {
 
-            document.querySelectorAll('input[name="choice"]').forEach((elem) => {
+            if (elem.checked) { fetching(elem.value) }
 
-                if (elem.checked) { fetching(elem.value) }
-
-            })
-
-        } else {
-
-            fetching('/Inicial/cena0.txt')
-
-        }
+        })
 
         return false
 
