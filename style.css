@@ -15,22 +15,32 @@ h1, h2 {
 h1 {
     font-size: 80px;
     text-align: center;
-    color: #ffe4c4;
+    color: #fec;
 }
 
 h2 {
     font-size: 60px;
     text-align: center;
-    color: #706558;
+    color: #765;
 }
 
 p {
     line-height: 20px;
 }
 
+fieldset {
+    max-width: 500px;
+    border: dotted #60f;
+    border-radius: 0 2em 50%;
+}
+
+fieldset:hover {
+    border-style: solid;
+}
+
 input[type=radio] {
-    accent-color: #f0f;
-    margin-bottom: 20px;
+    accent-color: #80f;
+    margin-top: 20px;
 }
 
 label {
@@ -48,8 +58,8 @@ label {
 #submit {
     height: 50px;
     width: 100px;
-    color: #f0f;
-    border: 3px solid #f0f;
+    color: #fff;
+    border: 3px dotted #80f;
     border-radius: 2em;
     margin-top: 30px;
     background-color: #0c0c33;
@@ -59,4 +69,5 @@ label {
 
 #submit:hover {
     width: 150px;
+    border-style: solid;
 }
