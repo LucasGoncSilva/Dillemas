@@ -9,19 +9,23 @@ html {
 }
 
 h1, h2 {
-    margin: -10px;
+    text-align: center;
 }
 
 h1 {
     font-size: 80px;
-    text-align: center;
     color: #fec;
+    margin: -1.5vh;
 }
 
 h2 {
     font-size: 60px;
-    text-align: center;
     color: #765;
+    margin-top: -0.5vh;
+}
+
+h3 {
+    color: #cba;
 }
 
 p {
@@ -30,16 +34,17 @@ p {
 
 fieldset {
     max-width: 500px;
-    border: dotted #60f;
+    border: solid #60f5;
     border-radius: 0 2em 50%;
+    transition: ease-in-out 800ms;
 }
 
 fieldset:hover {
-    border-style: solid;
+    border: solid #60f;
 }
 
 input[type=radio] {
-    accent-color: #80f;
+    accent-color: #60f;
     margin-top: 20px;
 }
 
@@ -49,17 +54,20 @@ label {
 
 #page {
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #content {
-    margin: 40px;
+    margin: 4vw;
 }
 
 #submit {
     height: 50px;
     width: 100px;
     color: #fff;
-    border: 3px dotted #80f;
+    border: 3px solid #60f5;
     border-radius: 2em;
     margin-top: 30px;
     background-color: #0c0c33;
@@ -68,6 +76,5 @@ label {
 }
 
 #submit:hover {
-    width: 150px;
-    border-style: solid;
+    border-color: #60f;
 }
