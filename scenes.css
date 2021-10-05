@@ -19,11 +19,16 @@ p {
     line-height: 20px;
 }
 
+pre {
+    margin: 10vh auto;
+}
+
 fieldset {
     max-width: 500px;
     border: solid #60f5;
     border-radius: 0 2em 50%;
     transition: ease-in-out 800ms;
+    margin-bottom: 10vh;
 }
 
 fieldset:hover {
@@ -59,7 +64,7 @@ label {
     margin-top: 30px;
     background-color: #0c0c33;
     cursor: pointer;
-    transition: ease-in-out 800ms;
+    transition: ease-in-out 400ms;
 }
 
 #submit:hover {
