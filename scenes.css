@@ -1,0 +1,67 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;800&display=swap');
+
+html {
+    background-color: #0c0c33;
+    text-align: justify;
+    font: 400 20px "Saira Extra Condensed";
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #5555;
+    margin: -1.5vh;
+}
+
+p {
+    line-height: 20px;
+}
+
+fieldset {
+    max-width: 500px;
+    border: solid #60f5;
+    border-radius: 0 2em 50%;
+    transition: ease-in-out 800ms;
+}
+
+fieldset:hover {
+    border: solid #60f;
+}
+
+input[type=radio] {
+    accent-color: #60f;
+    margin-top: 20px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+#page {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content {
+    margin: auto 4vw;
+}
+
+#submit {
+    height: 50px;
+    width: 100px;
+    color: #fff;
+    border: 3px solid #60f5;
+    border-radius: 2em;
+    margin-top: 30px;
+    background-color: #0c0c33;
+    cursor: pointer;
+    transition: ease-in-out 800ms;
+}
+
+#submit:hover {
+    border-color: #60f;
+}
