@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             if (elem.checked) {
 
-                window.location.href += elem.value
+                window.location.href = `https://lucasgoncsilva.github.io/Dillemas/${elem.value}`
 
             }
 
