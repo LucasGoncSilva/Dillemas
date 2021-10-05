@@ -1,10 +1,6 @@
-const wrong_scenes = [
-    '../Intermediario/cena1d1a.html',
-    '../Intermediario/cena1d1c.html',
-]
-
-
 window.addEventListener('DOMContentLoaded', () => {
+
+    console.log(window.location.hostname)
 
     document.querySelector('#answer').onsubmit = () => {
 
@@ -12,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             if (elem.checked) {
 
-                window.location.replace(elem.value)
+                window.location.replace(`Dillemas/${elem.value}`)
 
             }
 
