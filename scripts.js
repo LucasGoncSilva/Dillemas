@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 switch (url.includes('github')) {
                     case true:
-                        window.location.pathname(`/Dillemas/${elem.value}`)
+                        window.location.pathname = `/Dillemas/${elem.value}`
                         break;
                 
                     case false:
