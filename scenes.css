@@ -1,22 +1,26 @@
 @import
 url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;800&display=swap');
 
+@import
+url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;800&display=swap');
+
 html {
     background-color: #0c0c33;
-    text-align: justify;
-    font: 400 20px "Saira Extra Condensed";
+    font: 400 20px "Ubuntu";
     color: #fff;
 }
 
 h1 {
+    font-family: 'Saira Extra Condensed';
     text-align: center;
     font-size: 80px;
     color: #5555;
-    margin: -1.5vh;
+    margin: -0.5vh;
 }
 
 p {
-    line-height: 20px;
+    line-height: 30px;
+    text-align: justify;
 }
 
 pre {
@@ -49,6 +53,7 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5vh auto 10vh;
 }
 
 #content {
