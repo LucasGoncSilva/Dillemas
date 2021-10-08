@@ -25,11 +25,7 @@
 
 a)
 
-Escolha errada. Por um momento o Doutor se esqueceu das condições em que se encontrava durante a fuga. Havia o equivalente a seis Daleks por esquina cercando toda a região.
 
-Whovian percebe que acabou de realizar uma escolha completamente impensada e inconsequente, sem ao menos  analisar com o mínimo de cuidado as ferramentas que se encontram disponíveis.
-
-Escolha novamente (dica: b/c).
 
 
 
@@ -42,3 +38,5 @@ ERRADO!!
 O Doutor tomou uma decisão precipitada e mal calculada. Contudo, antes de interferir na criação do núcleo, ele se lembra do paradoxo de duplicação e os problemas que isso resultaria. Sabiamente recua e volta para a V.A.T.A, sua maquina do tempo.
 
 Escolha novamente (dica: a/b).
+
+<p>Para retornar à escolha anterior, utilize o botão personalizado abaixo.</p>
