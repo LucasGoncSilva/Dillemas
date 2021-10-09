@@ -118,7 +118,19 @@
 
     <script>
         if (window.location.host.includes('github')) {
-            document.querySelector('a').href = 'Dillemas/Intermediario/cena1d2cp2.html'
+            document.querySelector('a').href = ''
+            document.querySelector('a').onclick = () => {
+
+                switch (window.location.host.includes('github')) {
+                    case true:
+                        window.location.pathname = `/Dillemas${elem.value}`
+                        break;
+
+                    case false:
+                        window.location.pathname = `${elem.value}`
+                        break;
+                }
+            }
         }
     </script>
 
