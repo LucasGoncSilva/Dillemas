@@ -22,12 +22,9 @@
             color: #80f
         }
 
-        a {
+        #outer {
             margin: 4vw;
             padding: 1vw;
-        }
-
-        #outer {
             display: grid;
             place-items: center;
             border: 5px solid #fff;
@@ -109,20 +106,16 @@
 
         </div>
 
-        <a href="/Final/cenafinalAp2.html">
             <div id="outer">
 
                 <div id="inner"></div>
 
             </div>
-        </a>
 
     </div>
 
     <script>
-        if (window.location.host.includes('github')) {
-            document.querySelector('a').href = ''
-            document.querySelector('a').onclick = () => {
+            document.querySelector('#outer').onclick = () => {
 
                 switch (window.location.host.includes('github')) {
                     case true:
@@ -134,7 +127,6 @@
                         break;
                 }
             }
-        }
     </script>
 
 </body>
