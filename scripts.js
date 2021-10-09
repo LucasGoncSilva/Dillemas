@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         break;
 
                     case false:
-                        window.location.replace(`${elem.value}`)
+                        window.location.pathname = `${elem.value}`
                         break;
                 }
 

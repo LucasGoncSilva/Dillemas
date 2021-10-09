@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts.js"></script>
+    <link rel="stylesheet" href="../scenes.css">
+    <link rel="icon" href="../icon.svg">
+    <title>DILLEMA</title>
+    <style>
+        html {
+            background-color: #000;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        h3 {
+            color: #80f
+        }
+
+        a {
+            margin: 4vw;
+            padding: 1vw;
+        }
+
+        span {
+            text-decoration: underline;
+            text-decoration-color: crimson;
+        }
+
+        #letter {
+            margin-bottom: 10vw;
+        }
+        
+        #letter > p {
+            color: #add8e6;
+        }
+
+        #outer {
+            display: grid;
+            place-items: center;
+            border: 5px solid #fff;
+            width: 25vw;
+            height: 25vw;
+            border-radius: 50% 50% 50% 0;
+            transition: ease-in-out 400ms;
+        }
+
+        #outer:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f, inset 0 0 1vw 1vw #80f;
+        }
+
+        #inner1,
+        #inner2 {
+            border: 5px solid #fff;
+            border-radius: 1vw;
+            transition: ease-in-out 400ms;
+        }
+
+        #inner1 {
+            width: 2vw;
+            height: 14vw;
+
+        }
+
+        #inner2 {
+            width: 10vw;
+            height: 2vw;
+            transform: translateY(-11vw);
+        }
+
+        #inner1:hover,
+        #inner2:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f,
+                inset 0 0 1vw 1vw #80f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <h1>DILLEMAS</h1>
+
+        <div id='content'>
+
+            <div id="letter">
+                <p>Bom, é por isso que estou te escrevendo isso, suponho que acabei de entender o que está acontecendo.
+                    Doutor, aquele homem, é você. Só pode ser, é a única forma de explicar tudo que ele falou ter
+                    ocorrido da maneira exata que ele me disse, ele sendo você, e se isso for verdade, Doutor, eu sei
+                    não apenas como você esta agora, mas também como vai terminar se ignorar esta carta.</p>
+
+                <p>Eu entendi tudo: a nossa fuga vai fracassar; eu me entregarei para você fugir; você consegue fugir,
+                    mas passa a procurar uma forma de me salvar, provavelmente de uma realidade semelhante.</p>
+
+                <p>Doutor, pare, por favor pare de tentar realizar aquilo que já sabemos que não pode ser desfeito. Este
+                    deve ser o evento imutável que precisa ocorrer para sua fuga ocorrer, a minha morte. Whovian, não
+                    continue, pois fazendo isso, estará ferindo minha memória e meu sacrifício, pois perderá sua vida.
+                </p>
+
+                <p>Você já está me chamando para o início do assalto, então preciso ir. Quando ver isso, lembre-se, por
+                    favor, eu sei que vou morrer, a escolha agora é minha e você não tem o direito de tirá-la de mim.
+                    Sei que não há como salvar minha vida, mas ainda há como salvar a sua, então, Whovian, por favor,
+                    salve ao menos a sua vida. <span>Viva a sua vida suficientemente por nós dois.</span></p>
+
+                <p>Com muito pesar, mas amor e sinceridade,</p>
+
+                <p>Clara</p>
+            </div>
+
+            <p>Ao ler a carta, Whovian não consegue se conter, e tremendo, cai no chão em choque com o que acabou de
+                ler. Depois de algumas horas, apenas, ele de fato compreende o que leu, e não se aguenta em chorar.
+                Foram as mais lentas e dolorosas 3 horas que ele vivera nos últimos 28 anos, desde a aniquilação de seu
+                planeta, Gallifrey.</p>
+
+            <p>Durante o luto, ele fez questão de reviver cada bom momento que passaram, através das simulações da
+                V.A.T.A, além de realizar um funeral digno e decente, tal qual Clara merecia. A inscrição na lápide?
+                Simples: "Viva sua vida suficientemente por nos dois".</p>
+
+            <h3 style="margin-top: 15vh;">Você alcançou um dos finais incompletos. Que outros finais podem acontecer?
+                Você alcançou um dos finais completos. Que outros finais podem acontecer? Que outros caminhos podem
+                existir ainda que uma limitada história? Se acreditamos que a vida é uma jornada, devemos saber que
+                parte da jornada também é o fim. A vida não é fácil, as perdas não são fáceis, mas assim como nossos
+                erros também definem quem somos, o fim pode ser uma nova chance de recomeçar. Portanto, faça valer a
+                pena, pois muitos gostariam de ter a chance que você tem.</h3>
+
+            <h3>Faça sua escolha e que os jogos comecem.</h3>
+
+        </div>
+
+        <a href="/index.html">
+            <div id="outer">
+
+                <div style="transform: translateY(1vw);
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;">
+                    <div id="inner1"></div>
+                    <div id="inner2"></div>
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+
+    <script>
+        if (window.location.host.includes('github')) {
+            document.querySelector('a').href = 'Dillemas/index.html'
+        }
+    </script>
+
+</body>
+
+</html>

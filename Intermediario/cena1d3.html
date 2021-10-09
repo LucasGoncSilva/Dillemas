@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts.js"></script>
+    <link rel="stylesheet" href="../scenes.css">
+    <link rel="icon" href="../icon.svg">
+    <title>DILLEMA</title>
+    <style>
+        html {
+            background-color: #000;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        h3 {
+            color: #80f
+        }
+
+        a {
+            margin: 4vw;
+            padding: 1vw;
+        }
+
+        #outer {
+            display: grid;
+            place-items: center;
+            border: 5px solid #fff;
+            width: 25vw;
+            height: 25vw;
+            border-radius: 50% 50% 50% 0;
+            transition: ease-in-out 400ms;
+        }
+
+        #outer:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f,
+                inset 0 0 1vw 1vw #80f;
+        }
+
+        #inner1, #inner2 {
+            border: 5px solid #fff;
+            border-radius: 1vw;
+            transition: ease-in-out 400ms;
+        }
+
+        #inner1 {
+            width: 2vw;
+            height: 14vw;
+            
+        }
+
+        #inner2 {
+            width: 10vw;
+            height: 2vw;
+            transform: translateY(-11vw);
+        }
+
+        #inner1:hover, #inner2:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f,
+                inset 0 0 1vw 1vw #80f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <h1>DILLEMAS</h1>
+
+        <div id='content'>
+
+            <p>— Sim, de fato, tenho que ser muito burro ou muito sem noção para passar por aqui — diz Whovian, mesmo
+                sem conhecer a área, demonstrando que está nas mãos do chefe da área todo o controle da situação, e
+                conclui — Tudo que eu desejo é atravessar para o outro lado, apenas, sem incomodar…</p>
+
+            <p>— A linha entre a burrice e a loucura é muito tênue. Vocês ouviram isso? Ele só quer passar pro outro
+                lado! — todos dão risada, o Doutor não reage — Me escuta aqui, eu já estou incomodado com você. O que
+                acredita que devo fazer?</p>
+
+            <p>— Seria uma excelente ideia se me deixasse passar, não acha? Os dois lados saem ganhando: eu vou para
+                onde estava indo e vocês não precisam se preocupar comigo — indaga Whovian, com ombros caídos, tentando
+                apresentar sinceridade e, por que não, inferioridade?</p>
+
+            <p>— Delegado, o senhor é um grandessíssimo de um idiota se realmente pensa que pode chegar aqui assim e
+                simplesmente ir embora sem fazermos nada. Você tem duas escolhas: ou nos dar algo importante para
+                podermos pensar se liberamos você, ou morrer aqui e agora. A escolha é tooooda sua.</p>
+
+            <p>*Neste momento o chefe da área abaixa a arma, mostrando que a escolha esta nas mãos do Whovian.*</p>
+
+            <p>— Isso realmente faz total sentido, mas a única coisa de valor que eu tenho comigo, é a minha arma, podem
+                ficar com ela se quiserem, ainda que eu pense ser obsoleta para o arsenal de vocês — o Doutor começa a
+                perceber o que ele fez.</p>
+
+            <p>— Não interessa! Rapazes, revistem ele, e que sua arma seja mais valiosa do que pensa.</p>
+
+            <p>*Whovian é revistado, e sem poder reagir, os capangas encontram sua arma e o NN-xB45. Preocupados, logo o
+                evidenciam ao líder da trupe.*</p>
+
+            <p>— QUEM VOCÊ PENSA SER PRA TRAZER ISSO PRA CÁ??!? VOCÊ TEM PROBLEMA??? — EXCLAMA O CHEFE — OS DALEKS VIRÃO
+                DE RUA EM RUA ATRÁS DISSO!!!! VOCÊ, NÃO OUSE ATIVAR ISSO OU TE MATO AGORA!!</p>
+
+            <p>*O chefe tenta se acalmar para pensar de maneira racional na situação...*</p>
+
+            <p>— É o seguinte, me convença agora a te deixar sair daqui, senão você vai conhecer o seu criador, caso ele
+                tenha pena de você — entregando o ultimato.</p>
+
+            <p>— É serio, eu não queria incomodar os cavalheiros. Estou apenas de passagem e tudo o que quero é
+                prosseguir com o núcleo — Whovian responde já sabendo como termina.</p>
+
+            <p>*Ele deixa Whovian prosseguir viagem com o núcleo, mas antes que o perdesse de vista, descarrega todo um
+                cartucho no nosso personagem, para mostrar que não se pode mexer com a lei da rua sem estar disposto a
+                ser julgado por ela. Esta é a lei do mais forte*</p>
+
+            <h3 style="margin-top: 15vh;">Você alcançou um dos finais incompletos. Que outros finais podem acontecer? Que outros caminhos podem
+                existir ainda que uma limitada história? Quando estamos numa situação onde há uma autoridade integra,
+                nos submetermos a ela não é algo ruim. Contudo, em ambientes hostis, sua fraqueza sera o alvo dos
+                inimigos. Não há problema em não ser forte o tempo todo, mas deve-se saber quando e com quem você pode
+                se abrir, pois em situações anormais ou com pessoas erradas pode ser o seu fim. Tome cuidado com quem
+                você baixa a guarda...</h3>
+
+            <h3>Faça sua escolha e que os jogos comecem.</h3>
+
+        </div>
+
+        <a href="/index.html">
+            <div id="outer">
+
+                <div style="transform: translateY(1vw);
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;">
+                    <div id="inner1"></div>
+                    <div id="inner2"></div>
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+
+    <script>
+        if (window.location.host.includes('github')) {
+            document.querySelector('a').href = 'Dillemas/index.html'
+        }
+    </script>
+
+</body>
+
+</html>
