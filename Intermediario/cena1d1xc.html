@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts.js"></script>
+    <link rel="stylesheet" href="../scenes.css">
+    <link rel="icon" href="../icon.svg">
+    <title>DILLEMA</title>
+    <style>
+        h3,
+        p {
+            color: #f00;
+        }
+
+        a {
+            margin: 4vw;
+            padding: 1vw;
+        }
+
+        #outer {
+            display: grid;
+            place-items: center;
+            border: 5px solid #fff;
+            width: 25vw;
+            height: 25vw;
+            border-radius: 50%;
+            transition: ease-in-out 400ms;
+        }
+
+        #outer:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f,
+                inset 0 0 1vw 1vw #80f;
+        }
+
+        #inner {
+            width: 0;
+            height: 0;
+            border-top: 5vw solid transparent;
+            border-bottom: 5vw solid transparent;
+            border-right: 7.5vw solid #fff;
+            transform: translateX(-1.2vw);
+            transition: ease-in-out 400ms;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <h1>DILLEMAS</h1>
+
+        <div id='content'>
+
+            <p>Escolha incorreta. O Doutor tenta realizar um plano maluco: destruir o núcleo antes dele ser oficialmente
+                projetado, afinal, destruindo o NN-xB45 no seu início resolveria a questão do furto e, consequentemente,
+                salvaria Clara, certo?</p>
+
+            <h3 style="text-decoration: underline;
+                       text-decoration-style: dotted;
+                       text-decoration-color: #fff;">ERRADO!!</h3>
+
+            <p>O Doutor tomou uma decisão precipitada e mal calculada. Contudo, antes de interferir na criação do
+                núcleo, ele se lembra do paradoxo de duplicação e os problemas que isso resultaria. Sabiamente recua e
+                volta para a V.A.T.A, sua maquina do tempo.</p>
+
+            <p>Escolha novamente (dica: a/b).</p>
+
+            <p>Para retornar à escolha anterior, utilize o botão personalizado abaixo.</p>
+
+        </div>
+
+        <a href="/Intermediario/cena1d1.html">
+            <div id="outer">
+
+                <div id="inner"></div>
+
+            </div>
+        </a>
+
+    </div>
+
+</body>
+
+</html>

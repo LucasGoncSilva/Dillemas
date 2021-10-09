@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts.js"></script>
+    <link rel="stylesheet" href="../scenes.css">
+    <link rel="icon" href="../icon.svg">
+    <title>DILLEMA</title>
+    <style>
+        p {
+            color: #f00;
+        }
+
+        a {
+            margin: 4vw;
+            padding: 1vw;
+        }
+
+        #outer {
+            display: grid;
+            place-items: center;
+            border: 5px solid #fff;
+            width: 25vw;
+            height: 25vw;
+            border-radius: 50%;
+            transition: ease-in-out 400ms;
+        }
+
+        #outer:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f,
+                inset 0 0 1vw 1vw #80f;
+        }
+
+        #inner {
+            width: 0;
+            height: 0;
+            border-top: 5vw solid transparent;
+            border-bottom: 5vw solid transparent;
+            border-right: 7.5vw solid #fff;
+            transform: translateX(-1.2vw);
+            transition: ease-in-out 400ms;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <h1>DILLEMAS</h1>
+
+        <div id='content'>
+
+            <p>Certas vezes precisamos utilizar o conceito de profilaxia para avançar em algo que estamos trabalhando.
+            </p>
+
+            <p>Imagine que você tem um irmão chato ou uma irma irritante e você quer bagunçar o quarto desse ser
+                inferior (imagine serem quartos separados). Se você vai despretensiosamente e bagunça a cama dessa
+                criatura esquisita, ha uma grande chance de que seu quarto também seja bagunçado.</p>
+
+            <p>Aplicando o conceito de profilaxia, que consiste em se prevenir de algo antes que esse algo aconteça,
+                você tranca seu quarto antes de atacar a capital inimiga. Agora a sua capital está segura e não corre
+                mais riscos.</p>
+
+            <p>Pensando desta maneira, não parece mais inteligente que Whovian cuide dele, primeiramente, e depois se
+                preocupe em prosseguir?</p>
+
+            <p>(fala a verdade, utilidade pública essa explicação de profilaxia neh???)</p>
+
+            <p>De fato, pausar e se recuperar é uma escolha inteligente, resolveria muitos dos problemas que virão, mas
+                vamos assumir outra conduta (apenas para haver história)</p>
+
+            <p>Escolha novamente (dica: a/b).</p>
+
+        </div>
+
+        <a href="/Intermediario/cena1d2b.html">
+            <div id="outer">
+
+                <div id="inner"></div>
+
+            </div>
+        </a>
+
+    </div>
+
+</body>
+
+</html>

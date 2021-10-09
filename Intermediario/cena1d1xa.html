@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts.js"></script>
+    <link rel="stylesheet" href="../scenes.css">
+    <link rel="icon" href="../icon.svg">
+    <title>DILLEMA</title>
+    <style>
+        p {
+            color: #f00;
+        }
+
+        a {
+            margin: 4vw;
+            padding: 1vw;
+        }
+
+        #outer {
+            display: grid;
+            place-items: center;
+            border: 5px solid #fff;
+            width: 25vw;
+            height: 25vw;
+            border-radius: 50%;
+            transition: ease-in-out 400ms;
+        }
+
+        #outer:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f,
+                inset 0 0 1vw 1vw #80f;
+        }
+
+        #inner {
+            width: 0;
+            height: 0;
+            border-top: 5vw solid transparent;
+            border-bottom: 5vw solid transparent;
+            border-right: 7.5vw solid #fff;
+            transform: translateX(-1.2vw);
+            transition: ease-in-out 400ms;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <h1>DILLEMAS</h1>
+
+        <div id='content'>
+
+            <p>Escolha errada. Por um momento o Doutor se esqueceu das condições em que se encontrava durante a fuga.
+                Havia o equivalente a seis Daleks por esquina cercando toda a região.</p>
+
+            <p>Whovian percebe que acabou de realizar uma escolha completamente impensada e inconsequente, sem ao menos
+                analisar com o mínimo de cuidado as ferramentas que se encontram disponíveis.</p>
+
+            <p>Escolha novamente (dica: b/c).</p>
+
+            <p>Para retornar à escolha anterior, utilize o botão personalizado abaixo.</p>
+
+        </div>
+
+        <a href="/Intermediario/cena1d1.html">
+            <div id="outer">
+
+                <div id="inner"></div>
+
+            </div>
+        </a>
+
+    </div>
+
+</body>
+
+</html>
