@@ -85,3 +85,17 @@ label {
 #submit:hover {
     border-color: #60f;
 }
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #60f;
+    border-radius: 1vw 0 0 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 1vw 0 0 1vw;
+}
