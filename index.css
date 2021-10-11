@@ -6,7 +6,6 @@ url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;800&display=swap')
 
 html {
     background-color: #0c0c33;
-    text-align: justify;
     font: 400 20px "Ubuntu";
     color: #fff;
 }
@@ -36,6 +35,7 @@ h3 {
 
 p {
     line-height: 30px;
+    text-align: justify;
 }
 
 fieldset {

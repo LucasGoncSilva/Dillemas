@@ -37,7 +37,7 @@
     <div id="page">
 
         <h1>DILLEMAS</h1>
-        <h2>Uma história, algumas escolhas, diversas consequências...</h2>
+        <h2></h2>
 
         <div id="content">
 
@@ -63,7 +63,7 @@
   / '|   ()_________)        
   \ '/    \ ~~~~~ ~~ \       
     \       \ ~~~ ~~~~ \     
-    ==).      \__________\   
+    ==)       \__________\   
    (__)       ()__________)  
 </pre>
 
@@ -90,6 +90,29 @@
         </form>
 
     </div>
+
+    <script>
+        const width = window.innerWidth
+        const tag = document.querySelector('h2')
+
+        switch (true) {
+            case (width < 530):
+                tag.innerHTML = 'Story Game'
+                break;
+
+            case (531 < width && width < 700):
+                tag.innerHTML = 'Uma história,<br> algumas escolhas,<br> diversas consequências...'
+                break;
+
+            case (701 < width && width < 1180):
+                tag.innerHTML = 'Uma história, algumas escolhas,<br> diversas consequências...'
+                break;
+
+            case (781 < width):
+                tag.innerHTML = 'Uma história, algumas escolhas, diversas consequências...'
+                break;
+        }
+    </script>
 
 </body>
 
