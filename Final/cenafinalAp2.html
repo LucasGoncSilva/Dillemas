@@ -135,27 +135,33 @@
 
         </div>
 
-        <a href="/index.html">
-            <div id="outer">
+        <div id="outer">
 
-                <div style="transform: translateY(1vw);
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;">
-                    <div id="inner1"></div>
-                    <div id="inner2"></div>
-                </div>
-
+            <div style="transform: translateY(1vw);
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;">
+                <div id="inner1"></div>
+                <div id="inner2"></div>
             </div>
-        </a>
 
-    </div>
+        </div>
 
-    <script>
-        if (window.location.host.includes('github')) {
-            document.querySelector('a').href = 'Dillemas/index.html'
+</div>
+
+<script>
+    document.querySelector('#outer').onclick = () => {
+        switch (window.location.host.includes('github')) {
+            case true:
+                window.location.pathname = '/Dillemas/index.html'
+                break;
+
+            case false:
+                window.location.pathname = '/index.html'
+                break;
         }
-    </script>
+    }
+</script>
 
 </body>
 

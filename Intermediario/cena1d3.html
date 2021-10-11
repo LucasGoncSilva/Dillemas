@@ -22,12 +22,10 @@
             color: #80f
         }
 
-        a {
+        #outer {
+            cursor: pointer;
             margin: 4vw;
             padding: 1vw;
-        }
-
-        #outer {
             display: grid;
             place-items: center;
             border: .5vw solid #fff;
@@ -52,7 +50,6 @@
         #inner1 {
             width: 2vw;
             height: 14vw;
-            
         }
 
         #inner2 {
@@ -131,7 +128,6 @@
 
         </div>
 
-        <a href="/index.html">
             <div id="outer">
 
                 <div style="transform: translateY(1vw);
@@ -143,13 +139,20 @@
                 </div>
 
             </div>
-        </a>
 
     </div>
 
     <script>
-        if (window.location.host.includes('github')) {
-            document.querySelector('a').href = 'Dillemas/index.html'
+        document.querySelector('#outer').onclick = () => {
+            switch (window.location.host.includes('github')) {
+                case true:
+                    window.location.pathname = '/Dillemas/index.html'
+                    break;
+
+                case false:
+                    window.location.pathname = '/index.html'
+                    break;
+            }
         }
     </script>
 
