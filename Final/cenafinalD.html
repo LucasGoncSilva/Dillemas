@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts.js"></script>
+    <link rel="stylesheet" href="../scenes.css">
+    <link rel="icon" href="../icon.svg">
+    <title>DILLEMA</title>
+    <style>
+        html {
+            background-color: #000;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        h3 {
+            color: #80f
+        }
+
+        a {
+            margin: 4vw;
+            padding: 1vw;
+        }
+
+        span {
+            text-decoration: underline;
+            text-decoration-color: crimson;
+        }
+
+        #outer {
+            display: grid;
+            place-items: center;
+            border: .7vw solid #fff;
+            width: 25vw;
+            height: 25vw;
+            border-radius: 50% 50% 50% 0;
+            transition: ease-in-out 400ms;
+        }
+
+        #outer:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f, inset 0 0 1vw 1vw #80f;
+        }
+
+        #inner1,
+        #inner2 {
+            border: .5vw solid #fff;
+            border-radius: 1vw;
+            transition: ease-in-out 400ms;
+        }
+
+        #inner1 {
+            width: 2vw;
+            height: 14vw;
+
+        }
+
+        #inner2 {
+            width: 10vw;
+            height: 2vw;
+            transform: translateY(-360%);
+        }
+
+        #inner1:hover,
+        #inner2:hover {
+            border-color: #f0f;
+            box-shadow: 0 0 1vw 1vw #80f,
+                inset 0 0 1vw 1vw #80f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <h1>DILLEMAS</h1>
+
+        <div id='content'>
+
+            <p>Ao ver que o plano dos mercenários em se render e sair funcionava, o Doutor ate pensa em reproduzir a
+                ideia se infiltrando no grupo, com a esperança de escapar confundindo os Daleks. Porém, como sua roupa é
+                bem diferente, não há mais nada além de se render, ele estaria perdido de qualquer forma.</p>
+
+            <p>Em poucos instantes os mercenários já foram e Whovian se depara sozinho no meio de um círculo ofensivo
+                dos Daleks, completamente cercado. Dessa forma, um promotor da alta corte se achega ao Doutor e lê sua
+                sentença em alto tom:</p>
+
+            <p>— Doutor Whovian Stevens Cooper, filho de Smith Stevens Cooper, com o poder a mim revestido pela alta
+                corte judiciaria de Skaro, em nome da raça Dalek e em respeito ao universo, sentencio-te, por injúria e
+                desonra ao nome Daleks, assalto de propriedade governamental, gastos ao Estado e desrespeito consigo
+                mesmo, à prisão perpétua em Zaragon.</p>
+
+            <p>Após lida a sua sentença, soldados o revistam e recuperam o núcleo NN-xB45.</p>
+
+            <p>— Vocês não podem usá-lo! Não sabem o que custará para vocês e às outras estrelas! EU vi o futuro, EU vi
+                como termina, portanto, não posso deixar isso acontecer!!! — EXCLAMA WHOVIAN, DESESPERADO!</p>
+
+            <p>— CALE-SE, CRIMINOSO! NÃO TENS O DIREITO DA PALAVRA! — responde um dos oficiais.</p>
+
+            <p>E assim, sozinho, com profunda tristeza e remorso em falhar em sua missão e promessa, Whovian, cercado
+                por seus inimigos, é levado para o tribunal e preso em seguida. Inimigos aqueles que semanas depois
+                seriam os responsáveis por uma guerra universal que custaria a vida de todos, culminando no fim da vida
+                das raças inteligentes, dado que o Doutor, preso, não pode fazer absolutamente nada para impedir a
+                extinção da vida...</p>
+
+            <p style="margin-top: 300vh; margin-bottom: 130vh;">Será mesmo que ele não pode fazer nada...?</p>
+
+            <h3 style="margin-top: 15vh; text-align: justify;">
+                Você alcançou um dos finais completos. Que outros finais podem acontecer? Que outros caminhos podem
+                existir ainda que uma limitada história? Há decisões que devemos tomar, que custam um alto preço, que
+                custam aquilo que imaginamos ser de mais valor. Ainda assim, devemos tomá-las porque é o correto. Na
+                vida, como no xadrez, a vitória muitas vezes requer sacrifícios, e a jogada agora é por sua conta.
+
+                <h3>Faça sua escolha e que os jogos comecem.</h3>
+
+        </div>
+
+        <a href="/index.html">
+            <div id="outer">
+
+                <div style="transform: translateY(1vw);
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;">
+                    <div id="inner1"></div>
+                    <div id="inner2"></div>
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+
+    <script>
+        if (window.location.host.includes('github')) {
+            document.querySelector('a').href = 'Dillemas/index.html'
+        }
+    </script>
+
+</body>
+
+</html>
