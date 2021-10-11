@@ -10,7 +10,6 @@
     <link rel="icon" href="../icon.svg">
     <title>DILLEMA</title>
     <style>
-
         a {
             margin: 4vw;
             padding: 1vw;
@@ -103,19 +102,25 @@
  ~-------------~     
         </pre>
 
-        <a href="/Intermediario/cenaU3d1b3d2.html">
-            <div id="outer">
+        <div id="outer">
 
-                <div id="inner"></div>
+            <div id="inner"></div>
 
-            </div>
-        </a>
+        </div>
 
     </div>
 
     <script>
-        if (window.location.host.includes('github')) {
-            document.querySelector('a').href = 'Dillemas/Intermediario/cenaU3d1b3d2.html'
+        document.querySelector('#outer').onclick = () => {
+            switch (window.location.host.includes('github')) {
+                case true:
+                    window.location.pathname = '/Dillemas/Intermediario/cenaU3d1b3d2.html'
+                    break;
+
+                case false:
+                    window.location.pathname = '/Intermediario/cenaU3d1b3d2.html'
+                    break;
+            }
         }
     </script>
 
